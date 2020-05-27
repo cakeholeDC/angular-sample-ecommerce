@@ -17,6 +17,10 @@ export class ProductListComponent {
   hover() {
     console.log("hovered")
   }
+
+  onNotify() {
+    window.alert("You will be notified when the product goes on sale")
+  }
 }
 
 
